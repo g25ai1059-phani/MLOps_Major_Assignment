@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Olivetti Face Classifier</title>
+</head>
+<body>
+
+<h2>Face Classification App</h2>
+
+<form action="/predict" method="post">
+
+<label>Enter Face Image Index (0-399):</label>
+
+<input
+    type="number"
+    name="image_id"
+    min="0"
+    max="399"
+    required>
+
+<button type="submit">
+Predict
+</button>
+
+</form>
+
+<h3>{{ prediction }}</h3>
+
+</body>
+</html>
