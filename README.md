@@ -296,6 +296,6 @@ Successfully implemented:
 
 **Phani Pramod Pervela**
 
-PGD in Artificial Intelligence
+PGD in Data Engineering
 
 MLOps Major Assignment
